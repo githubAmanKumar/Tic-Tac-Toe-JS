@@ -63,6 +63,7 @@ reset.addEventListener("click", () => {
         square.innerHTML = "";
         square.disabled = false;
     });
+    winnervar.style.left = "100%";
 })
 
 
