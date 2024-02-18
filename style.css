@@ -43,8 +43,8 @@ h2::selection{
     display: none;
 }
 #main{
-    height: 20vw;
-    width: 20vw;
+    height: 350px;
+    width: 350px;
 }
 .boardrow{
     display: flex;
