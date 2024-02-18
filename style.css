@@ -43,8 +43,8 @@ h2::selection{
     display: none;
 }
 #main{
-    height: 350px;
-    width: 350px;
+    height: 300px;
+    width: 300px;
 }
 .boardrow{
     display: flex;
@@ -55,7 +55,7 @@ h2::selection{
     width: 33.33%;height: 100%;
     display: flex;align-items: center;justify-content: center;
     border: 1px solid #2F5755;
-    font-size: 5vw;
+    font-size: 7vw;
     cursor: pointer;
     border-radius: 10px;
     color: #0f1d1c;
