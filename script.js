@@ -1,7 +1,6 @@
 var squares = document.querySelectorAll(".square");
 var flag = 0;
 var reset = document.querySelector("#reset");
-const newGame = document.querySelector("#newGame");
 const winnervar = document.querySelector("#winner");
 const click = new Audio("click.mp3");
 const win = new Audio("win.mp3");
@@ -54,6 +53,8 @@ squares.forEach(square => {
         if (squares != "") {
             checkwin();
         }
+        var winningPlayer = square.innerHTML;
+        winnervar.innerHTML = `${winningPlayer} is winner 🏆`
     })
 });
 
@@ -63,14 +64,5 @@ reset.addEventListener("click", () => {
         square.innerHTML = "";
         square.disabled = false;
     });
-    winnervar.style.left = "100%";
-})
-
-
-newGame.addEventListener("click", () => {
-    squares.forEach(square => {
-        square.innerHTML = "";
-        square.disabled = false;
-    })
     winnervar.style.left = "100%";
 })
