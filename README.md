@@ -1,5 +1,5 @@
 
-# Tic Tac Toe
+# Tic Tac Toe Game
 
 Designed and developed an interactive two-player 'Tic
 Tac Toe' game using HTML, CSS, and JavaScript, fostering
